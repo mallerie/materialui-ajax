@@ -1,5 +1,42 @@
 /* CSS Entry Point */
 
 // Turn on freq used libraries
-// @import 'normalize-css/normalize';
-// @import 'font-awesome/scss/font-awesome';
+@import 'normalize-css/normalize';
+@import 'font-awesome/scss/font-awesome';
+
+/////VARIABLES//////
+
+$roboto: 'Roboto', sans-serif;
+$grey-blue: #959DAC;
+
+///// APP STYLE //////
+body {
+  background-color: $grey-blue;
+  justify-content: center;
+  display: flex;
+
+}
+
+///// MAIN STYLE //////
+.paper {
+  width: 400px;
+  margin: 20px;
+  text-align: 'center';
+  display: 'inline-block';
+  box-sizing: border-box;
+  .main-header {
+    height: 30px;
+    h3 {
+      font-size: 14px;
+    }
+  }
+  
+}
+
+///// GITHUB USERS STYLE //////
+
+
+///// USER ORGS LIST STYLE //////
+
+
+
