@@ -10,7 +10,7 @@ render((
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <IndexRoute component={GithubUsers}/>
-      <Route path="/:user/orgs" component={UserOrgsList}/>
+      <Route path="/user_orgs_list/:user" component={UserOrgsList}/>
     </Route>       
   </Router>
 ), document.querySelector('.app'));

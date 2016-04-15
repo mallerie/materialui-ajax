@@ -10,33 +10,46 @@ $roboto: 'Roboto', sans-serif;
 $grey-blue: #959DAC;
 
 ///// APP STYLE //////
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 body {
   background-color: $grey-blue;
   justify-content: center;
   display: flex;
-
 }
 
 ///// MAIN STYLE //////
 .paper {
   width: 400px;
-  margin: 20px;
+  margin: 50px;
   text-align: 'center';
   display: 'inline-block';
   box-sizing: border-box;
   .main-header {
-    height: 30px;
-    h3 {
-      font-size: 14px;
-    }
-  }
-  
+    height: 30px;  
+  } 
 }
 
 ///// GITHUB USERS STYLE //////
 
+.children {
+  h3 {
+    margin: 15px;
+    font-size: 14px;
+    color: #757575;
+  }
+}
 
 ///// USER ORGS LIST STYLE //////
 
-
-
+.orgs-list {
+  img {
+    height: 30px;
+    border: 1px #ccc solid;
+    border-radius: 30px;
+  }
+}

@@ -8,9 +8,6 @@ export default class Main extends Component {
     return(
       <div>
         <Paper className="paper" zDepth={2}>
-          <div className="main-header">
-            <h3>Github Organizations by User</h3>
-          </div>
           <div className="children">
             {this.props.children}
           </div>
@@ -20,3 +17,7 @@ export default class Main extends Component {
       )
   }
 }
+
+// <div className="main-header">
+//             <h3>Github Users</h3>
+//           </div>
