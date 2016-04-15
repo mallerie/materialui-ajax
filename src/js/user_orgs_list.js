@@ -19,7 +19,7 @@ export default class UserOrgsList extends Component {
 
     let { user } = this.props.params;
 
-      ajax(`https://api.github.com/users/${user}/orgs?access_token=a0473451f3d03f83766ba675472e04b6f03d01ec`).then(loadedData => {
+      ajax(`https://api.github.com/users/${user}/orgs`).then(loadedData => {
       this.setState({orgs: loadedData});
     })
   }
